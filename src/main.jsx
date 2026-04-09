@@ -20,7 +20,7 @@ createRoot(document.getElementById('root')).render(
     <Provider store={store}>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<App />} />
+          <Route path="/" element={<Counter />} />
           <Route path={"/counter"} element={
             <>
            <Counter />
